@@ -1,0 +1,27 @@
+<section class="grid-container">
+  <div class="grid-x align-center align-middle">
+    <div class="cell medium-3 align-center text-center">
+      <img src="./assets/img/logo.png" alt="Alexandre Tharaud" />
+    </div>
+    <div class="cell medium-6">
+      <nav>
+        <ul class="dropdown menu align-center" data-dropdown-menu>
+          <li><a href="home.html" {{#ifpage ‘home.html’}} class="active" {{/ifpage}}>Home</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Concerts</a></li>
+          <li><a href="#">Music</a>
+            <ul class="menu">
+              <li><a href="#">Disques</a></li>
+              <li><a href="#">Vidéos</a></li>
+            </ul>
+          </li>
+          <li><a href="bio.html" {{#ifpage ‘bio.html’}} class="active" {{/ifpage}}>Bio</a></li>
+          <li><a href="#">Links</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="cell medium-3 align-right text-right">
+      <img src="./assets/img/loupe.png" alt="zoom" /><br/> EN
+    </div>
+  </div>
+</section>
