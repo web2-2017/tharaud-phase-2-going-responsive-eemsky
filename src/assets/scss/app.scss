@@ -52,8 +52,8 @@
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
+@import 'surcharge';
 
-.inline-block{display: inline-block;}
 div{
   border:1px solid gray;
 }

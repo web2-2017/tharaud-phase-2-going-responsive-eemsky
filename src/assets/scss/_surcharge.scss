@@ -1,0 +1,19 @@
+@font-face {
+ font-family: "Jaapokki";
+ src: url("./fonts/jaapokki-regular.ttf") format("ttf");
+}
+.font-titles{
+  font-family: 'Jaapokki';
+}
+
+a{
+  color: inherit;
+  font-style: inherit;
+}
+.nav_header{
+  color: #a1a1a1;
+}
+
+.nav_header:hover{
+  color: #3eaf8d;
+}
