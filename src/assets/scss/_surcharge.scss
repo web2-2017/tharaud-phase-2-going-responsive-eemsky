@@ -2,18 +2,40 @@
  font-family: "Jaapokki";
  src: url("./fonts/jaapokki-regular.ttf") format("ttf");
 }
-.font-titles{
+.subtitles, .titles-articles, .littletitle{
   font-family: 'Jaapokki';
 }
 
+body{
+}
 a{
   color: inherit;
   font-style: inherit;
 }
-.nav_header{
+.nav_header, .titles_span{
   color: #a1a1a1;
 }
 
-.nav_header:hover{
+.littletitle, .nav_header:hover{
   color: #3eaf8d;
+}
+.titles-articles{
+  font-size: 27px;
+}
+
+.subtitles {
+  color: #0081af;
+}
+
+.titles_span{
+  font-size: 12px;
+  font-style: italic;
+}
+.city{
+  font-weight: 800;
+}
+
+.little_hr{
+  width: 30px;
+  border: 2px solid #0081af;
 }
