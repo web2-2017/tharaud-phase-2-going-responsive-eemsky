@@ -2,24 +2,24 @@
 <section class="grid-container">
   <div class="grid-x align-center">
     <div class="large-12 cell text-center">
+      <div class="text-center">
+        <a href="#suite"><img class="arrow" src="./assets/img/arrowhead.png" alt="flèche vers le bas" /></a>
+      </div>
       <img src="./assets/img/slideheader.png" alt="slideheader" /></a>
-      <img src="./assets/img/arrowhead.png" alt="flèche vers le bas" /></a>
     </div>
   </div>
 </section>
 <!--section 2 blocs-->
-<section class="grid-container">
+<section class="grid-container" id="suite">
   <!--Nouveauté-->
   <div class="grid-x align-center">
-    <div class="cell large-6 text-center">
-
+    <!---->
+    <div class="cell large-6 text-center section_nouveautes">
       <div class="grid-x align-center">
-
         <div class="large-6 cell text-center">
           <img src="./assets/img/cd.png" alt="CD tic to choc" /></a>
         </div>
-
-        <div class="large-6 cell titles">
+        <div class="large-6 cell titles bloc_principaux">
           <h2 class="titles-articles">NOUVEAUTÉ</h2>
           <hr class="little_hr">
           <h4 class="subtitles">disque</h4>
@@ -28,43 +28,50 @@
           <span class="titles littletitle">COUPERIN - TIC TOC CHOC</span>
         </div>
       </div>
-      <p>François Couperin, Jacques Duphly & autres pièces de clavecin. À peine achevé l'enregistrement de son disque Rameau en 2001, il tardait déjà à Alexandre Tharaud de prolonger ce travail sur la musique baroque française. Après un détour par Ravel,
-        Bach et...
-      </p>
+      <div class="txt_nouveautes">
+        <p>François Couperin, Jacques Duphly & autres pièces de clavecin. À peine achevé l'enregistrement de son disque Rameau en 2001, il tardait déjà à Alexandre Tharaud de prolonger ce travail sur la musique baroque française. Après un détour par Ravel,
+          Bach et...
+        </p>
+      </div>
+      <div class="btn_nouveautes">
+        <a href="#" class="titles bouton_nouveautes">EN SAVOIR +</a>
+      </div>
     </div>
+    <!---->
     <div class="cell large-6">
       <div class="grid-x align-center">
-
-
-        <div class="large-6 cell text-center">
-          <h2 class="titles-articles titles">PROCHAINES DATES</h2>
+        <!---->
+        <div class="large-6 cell text-left bloc_principaux">
+          <h2 class="titles-articles titles text-center">PROCHAINES DATES</h2>
           <img src="./assets/img/arrow_bas.png" />
           <div>
             <span class="littletitle">19 Août</span><br/>
             <span class="city">La roque d'Anthéron - FRANCE</span>
-            <p>Parc du château de Florens<br/> Festival International de la Roque<br/> Mozart - Chopin - Ravel
+            <p class="text_courant">Parc du château de Florens<br/> Festival International de la Roque<br/> Mozart - Chopin - Ravel
             </p>
             <img src="./assets/img/map.png" alt="map" /><a class="subtitles" href="#">www.festivalpiano.com</a>
             <div>
+              <hr class="hr_articles">
               <span class="littletitle">22 Août</span><br/>
               <span class="city">Amsterdam - NETHERLANDS</span>
-              <p>Parc du château de Florens<br/> Festival International de la Roque<br/> Mozart - Chopin - Ravel
+              <p class="text_courant">Parc du château de Florens<br/> Festival International de la Roque<br/> Mozart - Chopin - Ravel
               </p>
               <img src="./assets/img/map.png" alt="map" /><a class="subtitles" href="#">www.festivalpiano.com</a>
-              <div>
-                <a href="#" class="titles">VOIR TOUTES LES DATES</a>
+              <div class="btn_primary text-center">
+                <a href="#" class="titles bouton_primary">VOIR TOUTES LES DATES</a>
                 <hr>
               </div>
             </div>
           </div>
         </div>
+        <!---->
       </div>
     </div>
 
 </section>
 <!--sections articles-->
 <section class="grid-container section_articles">
-  <div class="grid-x align-center">
+  <div class="grid-x align-center bloc_articles">
     <!--////////////////////Colonne 1////////////////////-->
     <div class="cell medium-3 text-center">
       <div class="margin_bottom bg_color">
@@ -72,7 +79,8 @@
           <a href="#">http://fb.me/4ufSUR5Sj</a></p>
         <!--footer article-->
         <div>
-          <img src="./assets/img/twitter.png" alt="twitter" /><span>@pseudo ° Il y a 2h</span>
+          <hr class="hr_articles">
+          <img src="./assets/img/twitter.png" alt="twitter" /><span class="text-articles">@pseudo ° Il y a 2h</span>
         </div>
       </div>
       <div class="text-center bg_color">
@@ -81,17 +89,21 @@
           <a href="#">http://fb.me/4ufSUR5Sj</a></p>
         <!--footer article-->
         <div>
-          <img src="./assets/img/twitter.png" alt="twitter" /><span>@pseudo ° Il y a 2h</span>
+          <hr class="hr_articles">
+          <img src="./assets/img/twitter.png" alt="twitter" /><span class="text-articles">@pseudo ° Il y a 2h</span>
         </div>
       </div>
     </div>
     <!--////////////////////Colonne 2////////////////////-->
     <div class="cell medium-3 text-center margin_bottom">
-      <img src="./assets/img/piano.png" alt="piano" />
-      <img src="./assets/img/minivideo.png" alt="player video" />
+      <div class="marge">
+        <img src="./assets/img/piano.png" alt="piano" />
+        <img src="./assets/img/minivideo.png" alt="player video" />
+      </div>
       <!--footer article-->
       <div class="bg_color">
-        <img src="./assets/img/facebook.png" alt="facebook" /><span>@pseudo ° Il y a 2h</span>
+        <hr class="hr_articles">
+        <img src="./assets/img/facebook.png" alt="facebook" /><span class="text-articles">@pseudo ° Il y a 2h</span>
       </div>
     </div>
     <!--////////////////////Colonne 3////////////////////-->
@@ -99,9 +111,12 @@
       <div class="margin_bottom bg_color">
         <p>Ne manquez pas les savoureux films fantômes d'Albin de la Simone cette semaine @philharmonie @AlbindelaSimone
           <a href="#">http://fb.me/4ufSUR5Sj</a></p>
-        <img src="./assets/img/twitter.png" alt="twitter" /><span>@pseudo ° Il y a 2h</span>
+          <hr class="hr_articles">
+        <img src="./assets/img/twitter.png" alt="twitter" /><span class="text-articles">@pseudo ° Il y a 2h</span>
       </div>
-      <img src="./assets/img/oeil.png" alt="oeil" />
+      <div class="marge">
+        <img src="./assets/img/oeil.png" alt="oeil" />
+      </div>
     </div>
     <!--////////////////////Colonne 4////////////////////-->
     <div class="cell medium-3 text-center">
@@ -109,14 +124,14 @@
         <img src="./assets/img/piano2.png" alt="homme et piano" />
         <p>Ne manquez pas les savoureux films fantômes d'Albin de la Simone cette semaine @philharmonie @AlbindelaSimone
           <a href="#">http://fb.me/4ufSUR5Sj</a></p>
-        <img src="./assets/img/twitter.png" alt="twitter" /><span>@pseudo ° Il y a 2h</span>
+          <hr class="hr_articles">
+        <img src="./assets/img/twitter.png" alt="twitter" /><span class="text-articles">@pseudo ° Il y a 2h</span>
       </div>
     </div>
-  </div>
-  <div class="grid-x align-center">
-    <!--Bloc 1-->
-    <div class="cell medium-2 text-center">
-      <a href="#">+ D'ACTUALITÉS</a>
+    <div class="btn_primary">
+      <a href="#" class="titles bouton_primary">+ D'ACTUALITÉS</a>
+      <hr>
     </div>
+
   </div>
 </section>
