@@ -2,40 +2,50 @@
  font-family: "Jaapokki";
  src: url("./fonts/jaapokki-regular.ttf") format("ttf");
 }
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700');
+
+
 .subtitles, .titles-articles, .littletitle{
   font-family: 'Jaapokki';
 }
 
-body{
+body{ font-family: 'Open Sans', sans-serif; }
+.margin_bottom{
+  margin-bottom: 20px;
 }
+
 a{
   color: inherit;
   font-style: inherit;
 }
-.nav_header, .titles_span{
-  color: #a1a1a1;
-}
 
-.littletitle, .nav_header:hover{
-  color: #3eaf8d;
-}
-.titles-articles{
-  font-size: 27px;
-}
+/* COLORS */
+.nav_header, .titles_span{ color: #a1a1a1; }
+.littletitle, .nav_header:hover{ color: #3eaf8d; }
+.subtitles { color: #0081af; }
 
-.subtitles {
-  color: #0081af;
+.little_hr{
+  width: 30px;
+  border: 2px solid #0081af;
+}
+.bg_color{
+  background-color: #fff;
 }
 
 .titles_span{
   font-size: 12px;
   font-style: italic;
 }
-.city{
-  font-weight: 800;
-}
+.titles-articles{ font-size: 27px; }
+.city{ font-weight: 800; }
 
-.little_hr{
-  width: 30px;
-  border: 2px solid #0081af;
+
+
+/* Backgrounds */
+
+.section_articles{
+  background-image: url("../img/backgroung_articles.png");
+  background-size: cover;
+  background-position: center;
+  height: 745px;
 }
